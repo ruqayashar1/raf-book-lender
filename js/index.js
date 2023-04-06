@@ -2,6 +2,7 @@
 // Get the book to borrow
 // post request
 const input = document.getElementById("input_box");
+let tableadata=document.getElementById("table-group-divider")
 
 function handleBorrow(){
     let action = input.value;
@@ -38,6 +39,20 @@ alert ('borrowed');
 });
 }
 
-handleBorrow()
 
- 
+// update the data in the table
+function populateData(){
+    let url= "http://localhost:3000/book_data";
+
+    fetch(url,{method:"GET", 
+headers:{
+    "Content-Type":"application/json",
+}
+})
+.then ((response)=>response.json())
+.then ((data)=>{
+    console.log("data");
+});
+}
+
+handleBorrow()
