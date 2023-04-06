@@ -12,6 +12,25 @@
       "title": "Third Article",
       "content": "Another example!",
       "id": 2
+    },
+    {
+      "id": 3
+    },
+    {
+      "date": 334556,
+      "book_name": "string",
+      "author": "string",
+      "action": "borrow",
+      "student": "string",
+      "id": 4
+    },
+    {
+      "date": 334556,
+      "book_name": "string",
+      "author": "string",
+      "action": "borrow",
+      "student": "string",
+      "id": 5
     }
   ]
 }

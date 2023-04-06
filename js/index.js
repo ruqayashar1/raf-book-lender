@@ -22,9 +22,17 @@ let data={
 }
 data=JSON.stringify(data)
 let url = "http://localhost:3000/book_data";
-fetch(url,{method:"POST", body:data})
+fetch(url,{method:"POST", 
+body:data,
+headers:{
+    "Content-Type":"application/json",
+},
+})
+
 .then ((response)=>response.json())
 .then ((data)=>{
+    // alerts the student that the book hsa been successfully borrowed
+    console.log(data);
 input.value="";
 alert ('borrowed');
 });
