@@ -1,4 +1,6 @@
 # Title: Raf Book lender
+# introduction
+this is an interface whereby a student can search for a book online and be able to borrow and use it.
 
 # MVP
 -search for a book
