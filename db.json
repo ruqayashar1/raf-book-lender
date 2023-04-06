@@ -1,0 +1,17 @@
+{
+  "book_data": [
+    {
+      "id": 1,
+      "date": 334556,
+      "book_name": "typicode",
+      "author": "typicode",
+      "action": "borrow",
+      "student": "typicode"
+    },
+    {
+      "title": "Third Article",
+      "content": "Another example!",
+      "id": 2
+    }
+  ]
+}
