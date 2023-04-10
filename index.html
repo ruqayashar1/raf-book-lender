@@ -15,6 +15,8 @@
 
 <div class ="searchBook">
   <form id="searchForm">
+    <label for="studentName">Enter student name:</label>
+    <input type="string" id="studentName" name ="studentName" required placeholder="Enter student name"/>
     <label for="searchInput">Enter book name:</label>
     <input type="string" id="input_box" name ="searchInput" required placeholder="Enter Book Title"/>
     <button id="addButton" type="submit" class="btn btn-success">ADD BOOK</button>
@@ -28,25 +30,20 @@
     <table class="table">
         <thead>
           <tr>
-            <th scope="col">ID</th>
             <th scope="col">DATE</th>
             <th scope="col">BOOK NAME</th>
             <th scope="col">AUTHOR</th>
             <th scope="col">STUDENT NAME</th>
-            <th scope="col">ACTION</th>
           </tr>
         </thead>
-        <tbody id="table_data">
+        <tbody id="table_Body">
           <tr>
-            <th scope="row">1</th>
-            <td>20-1-2023</td>
+            <!-- <td>20-1-2023</td>
             <td>Romeo and Juliet</td>
             <td>Shakespeare</td>
-            <td>Tim David</td>
-            <td>Borrow</td>
+            <td>Tim David</td> -->
 
           </tr>
-        
         </tbody>
       </table>
 </div>
