@@ -13,15 +13,16 @@
 <div class ="header"> <h1>RAF LIBRARY</h1>
 </div>
 
-<div class ="inputBox">
-    <input type="string" id="input_box" required placeholder="Enter Book Title"/>
+<div class ="searchBook">
+  <form id="searchForm">
+    <label for="searchInput">Enter book name:</label>
+    <input type="string" id="input_box" name ="searchInput" required placeholder="Enter Book Title"/>
+    <button id="addButton" type="submit" class="btn btn-success">ADD BOOK</button>
+    <button id="returnBtn" type="button" class="btn btn-warning">RETURN</button> 
+  </form>
 </div>
 <!-- the onClick replaces event Listener -->
-<div class ="Buttons" onclick="handleBorrow()">
-    <button type="button" class="btn btn-success">BORROW</button>
-    <button type="button" class="btn btn-warning">RETURN</button>
-    
-</div>
+
 
 <div class = "tables">
     <table class="table">
@@ -35,7 +36,7 @@
             <th scope="col">ACTION</th>
           </tr>
         </thead>
-        <tbody id="table-group-divider">
+        <tbody id="table_data">
           <tr>
             <th scope="row">1</th>
             <td>20-1-2023</td>
@@ -45,7 +46,7 @@
             <td>Borrow</td>
 
           </tr>
-          <tr>
+        
         </tbody>
       </table>
 </div>

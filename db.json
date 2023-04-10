@@ -3,14 +3,17 @@
     {
       "id": 1,
       "date": 334556,
-      "book_name": "typicode",
-      "author": "typicode",
+      "book_name": "Romeo and Juliet",
+      "author": "Shakespeare",
       "action": "borrow",
-      "student": "typicode"
+      "student": "Tim David"
     },
     {
-      "title": "Third Article",
-      "content": "Another example!",
+      "date": 334556,
+      "book_name": "Great History",
+      "author": "Shakespeare",
+      "action": "return",
+      "student": "Davies David",
       "id": 2
     },
     {
@@ -18,10 +21,10 @@
     },
     {
       "date": 334556,
-      "book_name": "string",
-      "author": "string",
+      "book_name": "self-love",
+      "author": "mariam njeri",
       "action": "borrow",
-      "student": "string",
+      "student": "kevin",
       "id": 4
     },
     {
@@ -31,6 +34,86 @@
       "action": "borrow",
       "student": "string",
       "id": 5
+    },
+    {
+      "date": 334556,
+      "book_name": "string",
+      "author": "string",
+      "action": "borrow",
+      "student": "string",
+      "id": 6
+    },
+    {
+      "date": 334556,
+      "book_name": "string",
+      "author": "string",
+      "action": "borrow",
+      "student": "string",
+      "id": 7
+    },
+    {
+      "date": 334556,
+      "book_name": "string",
+      "author": "string",
+      "action": "borrow",
+      "student": "string",
+      "id": 8
+    },
+    {
+      "date": 334556,
+      "book_name": "string",
+      "author": "string",
+      "action": "borrow",
+      "student": "string",
+      "id": 9
+    },
+    {
+      "date": 334556,
+      "book_name": "string",
+      "author": "string",
+      "action": "borrow",
+      "student": "string",
+      "id": 10
+    },
+    {
+      "date": 334556,
+      "book_name": "string",
+      "author": "string",
+      "action": "borrow",
+      "student": "string",
+      "id": 11
+    },
+    {
+      "date": 334556,
+      "book_name": "string",
+      "author": "string",
+      "action": "borrow",
+      "student": "string",
+      "id": 12
+    },
+    {
+      "date": 334556,
+      "book_name": "string",
+      "author": "string",
+      "action": "borrow",
+      "student": "string",
+      "id": 13
+    },
+    {
+      "date": 334556,
+      "book_name": "string",
+      "author": "string",
+      "action": "borrow",
+      "student": "string",
+      "id": 14
+    },
+    {
+      "date": 334556,
+      "book_name": "string",
+      "author": "string",
+      "action": "borrow",
+      "student": "string",
+      "id": 15
     }
   ]
 }
