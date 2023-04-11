@@ -1,5 +1,5 @@
 
-document.addEventListener('DOMContentLoaded',loadCards)
+
 
 // look for DOM Element
 // Get the book to borrow
