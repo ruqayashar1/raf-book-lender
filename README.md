@@ -1,5 +1,7 @@
 # Title: Raf Library
-# introduction
+
+# Author: Rukia Sharif
+# Introduction
 this is an interface whereby a librarian can keep track of borrowed books i.e date borrowed, student's name, the name of the book and the author.
 
 # MVP
@@ -14,12 +16,17 @@ this is an interface whereby a librarian can keep track of borrowed books i.e da
  link file js to html
  Use "https://openlibrary.org/search.json?q" API link to get books data
 
- # procedure
- create textbox to enter the name of the student who borrows the book.
- create textbox to enter the name of the book to be borrowed.
- pop alert message if fields are empty and 'add book' button has been clicked.
- create button to add the book to the list.
- create a table for displaying updates.
+ # Procedure
+ -Create textbox to enter the name of the student who borrows the book.
+ -Create textbox to enter the name of the book to be borrowed.
+ -Pop alert message if fields are empty and 'add book' button has been clicked.
+ -Create button to add the book to the list.
+ -Create a table for displaying updates.
 
- 
+ # link to live site on GitHub Pages : http://127.0.0.1:3000/index.html
+
+ # Lincense:
+ This project is a copyright of Rukia published in 2023.
+ gitHub rukia @2023.
+
  

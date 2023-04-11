@@ -1,6 +1,8 @@
 body{
-    background-color: aquamarine;
-    padding: 20px;
+    background-image:url("../assets/img/bg.jpg");
+    padding:10px;
+
+    
 }
 .header {
     display: flex;
@@ -25,8 +27,12 @@ margin-top: 50;
 }
 .tables {
     background-color:azure;
-    border-radius: 41px;
+    border-radius: 20px;
     min-height: 80%;
     min-height:40px ;
 
+}
+.div searchForm {
+ background-color: black;
+ color:white;
 }

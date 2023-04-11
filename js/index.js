@@ -10,8 +10,10 @@ const addBookButton = document.getElementById("addButton")
 const baseUrl = 'https://openlibrary.org/search.json';
 const searchForm=document.getElementById("searchForm")
 const studentNameBox=document.getElementById('studentName')
+const deleteEntryButton = document.getElementById("deleteButton")
 
 // Add event listener to the form
+
 searchForm.addEventListener('submit', (event) => {
     event.preventDefault()
     let bookName = bookInput.value
@@ -26,8 +28,7 @@ searchForm.addEventListener('submit', (event) => {
     } else {
         alert ("please Enter the book name and student name");
     } 
-    }
-    
+    }   
 )
 // makes the function asynchronous i.e it will wait for other functions to load first
 async function searchBook(apiUrl,studentName){
